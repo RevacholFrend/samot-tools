@@ -1,11 +1,24 @@
-# SAMOT-releases
+<p align="center">
+  <img src="logo.png" width="84" alt="SAMOT" />
+</p>
 
-Official release channel for **SAMOT Launcher** and **SAMOT Admin**.
+<h1 align="center">SAMOT Tools</h1>
+<p align="center">Утилиты разработчика экосистемы <b>SAMOT</b></p>
 
-This repository hosts binary release assets (installers and game packages).
-Source code is not stored here.
+---
 
-- **SAMOT Launcher** — Windows game launcher.
-- **SAMOT Admin** — administration panel for the launcher.
+### SAMOT Packager
 
-See repository Releases for the latest installers and game packages.
+Выбирает папку готовой игры и собирает релиз для GitHub Releases:
+`pack-*.zip` с SHA-256 + `manifest.json` + короткая инструкция — в одну папку, готовую к загрузке на релиз.
+
+**[Скачать SAMOT Packager 1.0.0 →](https://github.com/RevacholFrend/samot-tools/releases/latest/download/SAMOT-Packager.exe)**
+Portable · ~72 МБ · Windows 10+ · ничего устанавливать не нужно
+
+### Экосистема
+
+- **[SAMOT Launcher](https://github.com/RevacholFrend/samot-launcher)** — лаунчер игр и ПО для игроков
+- **[SAMOT Admin](https://github.com/RevacholFrend/samot-admin)** — панель администратора и разработчика
+- **[revacholfrend.github.io](https://revacholfrend.github.io/)** — сайт проекта
+
+<sub>Утилиты подписаны самоподписанным сертификатом SAMOT — при первом запуске Windows SmartScreen может показать предупреждение.</sub>
